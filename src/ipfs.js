@@ -1,5 +1,3 @@
-const fs = require('fs');
-const path = require('path');
 const IPFSFactory = require('ipfsd-ctl');
 const f = IPFSFactory.create({ type: 'go' });
 
